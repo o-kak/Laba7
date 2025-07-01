@@ -35,7 +35,7 @@ namespace KitchenApp
             phoneTextBox = new TextBox { Width = 200, Height = 40, PlaceholderText = "Введите номер телефона:" };
             getCodeButton = new Button { Text = "Получить код", Height = 40, Width = 200 };
             codeTextBox = new TextBox { Width = 200, Height = 40, PlaceholderText = "Введите код:" };
-            clientLoginButton = new Button { Text = "Войти", Height = 40, Width = 200 };
+            clientLoginButton = new Button { Text = "Войти", Height = 41, Width = 200 };
 
             clientLoginButton.Click += ClientLoginButton_Click;
 
